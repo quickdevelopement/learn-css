@@ -1,21 +1,16 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-p{
-    font-weight: bold;
+div p{
+    font-family: tahoma;
 }
 
-#css-select{
-    font-weight: normal;
+article > p{
+    font-family: Arial;
     font-size: 30px;
 }
-.color{
-    font-weight: normal;
-    color: rgb(186, 101, 4)
+
+.area + p{
+    color: orange
 }
 
-h2, #css-select, button, a{
-    border: 1px solid greenyellow;
-    text-transform: uppercase;
+.inter ~ p{
+    color: green
 }
