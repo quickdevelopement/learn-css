@@ -1,16 +1,51 @@
-div p{
+ article a:link{
+    color: green;
+}
+
+article a:visited{
+    color: red;
+}
+
+article a:hover{
+    color: gray;
+}
+
+article a:active{
+    color: orange;
+}
+
+.developer:hover{
+    font-size: 25px;
     font-family: tahoma;
+    color: aqua
+}
+article:hover{
+    background-color: blueviolet;
+    color: white;
+    transition: .5s;
 }
 
-article > p{
-    font-family: Arial;
-    font-size: 30px;
+nav a{
+    text-decoration: none;
 }
 
-.area + p{
-    color: orange
+nav a:first-child{
+    color: white;
+    background-color: black;
+    border-radius: 5%;
+}
+nav a:last-child{
+    color: red;
+    background-color: green;
+    border-radius: 5%;
 }
 
-.inter ~ p{
-    color: green
+nav a:nth-child(even){
+    background-color: aqua;
+    color: brown;
+}
+
+nav a:nth-child(odd){
+    color: red;
+    background-color: blue;
 }
