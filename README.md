@@ -8,3 +8,9 @@
 - [ ] Child Selector
 - [ ] Adjacent Sibling Selector
 - [ ] General Sibling Selector
+
+## CSS Pseudo Class Selectors
+- [x] Anchor Pseudo Classes
+- [ ] Pseudo-Classes and HTML Classes
+- [ ] Hover on Elements
+- [ ] CSS Child Pseudo Classes
