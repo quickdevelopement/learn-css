@@ -1,51 +1,67 @@
- article a:link{
+.element p::first-line{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: brown
+}
+
+p.para::first-letter{
+    font-size: 40px;
+    color: peru;
+    font-weight: bold;
+}
+
+.smallPara::first-line{
     color: green;
-}
-
-article a:visited{
-    color: red;
-}
-
-article a:hover{
-    color: gray;
-}
-
-article a:active{
-    color: orange;
-}
-
-.developer:hover{
-    font-size: 25px;
     font-family: tahoma;
-    color: aqua
+
 }
-article:hover{
+
+.author h2::before{
+    content: "Hello, ";
+}
+
+.author h2::after{
+    content: " How are you?";
+}
+
+::marker{
+    color: chocolate;
+}
+
+::selection{
+    color: orange;
+    background-color: black
+
+}
+.list h2{
+    text-align: center;
+    color: darkmagenta;
+    position: relative;
+}
+
+.list h2::after{
+    width: 10px;
+    height: 10px;
+   
+    content: "";
+    position: absolute;
+    background-color: rgb(244, 243, 245);
+    border: 2px solid blueviolet;
+    border-radius: 50%;
+    left: 50%;
+    bottom: -10px;
+
+    
+    transform: translateX(-50%);
+}
+.list h2::before{
+    width: 100px;
+    height: 5px;
+    content: "";
+    position: absolute;
     background-color: blueviolet;
-    color: white;
-    transition: .5s;
-}
-
-nav a{
-    text-decoration: none;
-}
-
-nav a:first-child{
-    color: white;
-    background-color: black;
-    border-radius: 5%;
-}
-nav a:last-child{
-    color: red;
-    background-color: green;
-    border-radius: 5%;
-}
-
-nav a:nth-child(even){
-    background-color: aqua;
-    color: brown;
-}
-
-nav a:nth-child(odd){
-    color: red;
-    background-color: blue;
+    border-radius: 5px;
+    left: 50%;
+    bottom: -5px;
+    transform: translateX(-50%);
 }
