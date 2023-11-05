@@ -14,3 +14,12 @@
 - [ ] Pseudo-Classes and HTML Classes
 - [ ] Hover on Elements
 - [ ] CSS Child Pseudo Classes
+- [ ] 
+## CSS Attributes Selectors
+- [x] ElementName[attribute]
+- [x] ElementName[attribute="value"]
+- [x] ElementName[attribute~="value"]
+- [x] ElementName[attribute|="value"]
+- [x] ElementName[attribute^="value"]
+- [x] ElementName[attribute$="value"]
+- [x] ElementName[attribute*="value"]
