@@ -1,26 +1,32 @@
-a[target]{
+/*========Universal Selector Start==========*/
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
     text-decoration: none;
-    font-size: 30px;
 }
-
-input[type="number"]{
-    border:1px solid red;
-    font-size: 40px;
-}
-
-label[title~="form"]{
-    font-size: 50px
-}
-
-ul li[class^="top"]{
-    color: greenyellow
-}
-
-ul li[id$="lo"]{
+/*========Universal Selector End==========*/
+/*========Header Section Start==========*/
+header{
+   /* width: 100%;*/
+   min-height: 80px;
     background-color: blueviolet;
+    color: #fff
 }
 
-p[title*="name"]{
-    text-transform: capitalize;
-    font-weight: bold;
+/* log css area */
+header .logo, header nav{
+    width: 50%;
+    float: left;
+    line-height: 80px;
 }
+/*
+header nav{
+    float: right;
+}
+*/
+header nav a{
+    color: wheat;
+}
+/*========Header Section end==========*/
