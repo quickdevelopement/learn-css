@@ -1,32 +1,14 @@
-/*========Universal Selector Start==========*/
-*{
-    margin: 0;
-    padding: 0;
+.flag{ /*10:6:4*/
+    width: 200px;
+    height: 120px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-a{
-    text-decoration: none;
+.radius{
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    border-radius: 50%;
 }
-/*========Universal Selector End==========*/
-/*========Header Section Start==========*/
-header{
-   /* width: 100%;*/
-   min-height: 80px;
-    background-color: blueviolet;
-    color: #fff
-}
-
-/* log css area */
-header .logo, header nav{
-    width: 50%;
-    float: left;
-    line-height: 80px;
-}
-/*
-header nav{
-    float: right;
-}
-*/
-header nav a{
-    color: wheat;
-}
-/*========Header Section end==========*/
