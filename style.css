@@ -12,3 +12,18 @@
     background-color: red;
     border-radius: 50%;
 }
+
+/* 9.2 class */
+section article:first-child{
+    background-color: rgb(255,0,0);
+    color: rgb(255, 255, 255)
+}
+
+section article:nth-child(2){
+    color: hsl(240, 100%, 50%);
+}
+
+section article:last-child{
+    background-color: #ffa500;
+    color: #ffffff;
+}

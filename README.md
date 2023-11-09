@@ -13,3 +13,7 @@
  - [x] BLUE
  - [x] WHITE
  - [x] BLACK
+#### Color Category
+- [x] RGB
+- [x] HSL
+- [x] HEX
