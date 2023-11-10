@@ -1,29 +1,8 @@
-.flag{ /*10:6:4*/
-    width: 200px;
-    height: 120px;
-    background-color: green;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.artSection{
+    background-image: url('https://img.freepik.com/free-photo/cascade-boat-clean-china-natural-rural_1417-1356.jpg');
+    background-size: cover;
 }
-.radius{
-    width: 80px;
-    height: 80px;
-    background-color: red;
-    border-radius: 50%;
-}
-
-/* 9.2 class */
-section article:first-child{
-    background-color: rgb(255,0,0);
-    color: rgb(255, 255, 255)
-}
-
-section article:nth-child(2){
-    color: hsl(240, 100%, 50%);
-}
-
-section article:last-child{
-    background-color: #ffa500;
-    color: #ffffff;
+.fstArt{
+    color: rgb(0, 255, 0);
+    background-color: rgba(0,0,255, 0.2);
 }
