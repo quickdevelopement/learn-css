@@ -11,3 +11,9 @@
     color:hsl(240, 100%, 50%);
     background-color: hsla(0, 100%, 50%, 0.7);
 }
+
+/* Hexadecimal color*/
+.hexArt{
+    color: #0000ff;
+    background-color: #00000051;
+}
