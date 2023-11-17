@@ -1,19 +1,11 @@
-.artSection{
-    background-image: url('https://img.freepik.com/free-photo/cascade-boat-clean-china-natural-rural_1417-1356.jpg');
-    background-size: cover;
+*{
+    margin: 0;
+    padding: 0;
 }
-.fstArt{
-    color: rgb(4 255 4);
-    background-color: rgba(0,0,255, 0.2);
-}
-
-.sndArt{
-    color:hsl(240, 100%, 50%);
-    background-color: hsla(0, 100%, 50%, 0.7);
-}
-
-/* Hexadecimal color*/
-.hexArt{
-    color: #0000ff;
-    background-color: #00517C;
+.serv{
+    width: 32%;
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(255, 255, 128);
+    opacity: 0.5;
 }
