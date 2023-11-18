@@ -1,11 +1,8 @@
-*{
-    margin: 0;
-    padding: 0;
+#about p{
+    background-image: url("/image/devlopment.jpg");
+    color:white
 }
-.serv{
-    width: 32%;
-    display: inline-block;
-    text-align: center;
-    background-color: rgb(255, 255, 128);
-    opacity: 0.5;
+
+#blog p{
+    background-image: url("https://d334lak5lb2pjo.cloudfront.net/wp-content/uploads/b2b-web-design-examples-min-1220x718-1.jpg");
 }
