@@ -1,6 +1,9 @@
 #about p{
-    background-image: url("/image/devlopment.jpg");
-    color:white
+    background-image: url("/image/computer-pc.jpeg");
+    color:rgb(55, 2, 2);
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat-y */
+    background-repeat: space round;
 }
 
 #blog p{
