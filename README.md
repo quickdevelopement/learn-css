@@ -2,4 +2,8 @@
 
 ### CSS Background 
 - [x] Background Color
-- [ ] Background Image
+- [x] Background image
+- [x] Background repeat
+- [x] Background position
+  - [ ] background-position-x
+  - [ ] background-position-y

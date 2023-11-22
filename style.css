@@ -3,7 +3,12 @@
     color:rgb(55, 2, 2);
     /* background-repeat: no-repeat; */
     /* background-repeat: repeat-y */
-    background-repeat: space round;
+    background-repeat: no-repeat;
+    /* background-position: 20% 70%; */
+    /* background-position-x: 50%; */
+    /* background-position-y: 50%; */   `
+    background-position: left 0px bottom 0px;
+
 }
 
 #blog p{
