@@ -1,14 +1,12 @@
 #about p{
-    background-image: url("/image/computer-pc.jpeg");
-    color:rgb(55, 2, 2);
-    /* background-repeat: no-repeat; */
-    /* background-repeat: repeat-y */
+    background-image: url("/image/web-design.jpg");
+    color:rgb(13, 232, 31);
+   
     background-repeat: no-repeat;
-    /* background-position: 20% 70%; */
-    /* background-position-x: 50%; */
-    /* background-position-y: 50%; */   `
-    background-position: left 0px bottom 0px;
-
+    /* background-position: left 0px bottom 0px; */
+    background-attachment: local, scroll;
+    /* background-size: 300px 100px; */
+    background-size: auto;
 }
 
 #blog p{
