@@ -1,12 +1,5 @@
 #about p{
-    background-image: url("/image/web-design.jpg");
-    color:rgb(13, 232, 31);
-   
-    background-repeat: no-repeat;
-    /* background-position: left 0px bottom 0px; */
-    background-attachment: local, scroll;
-    /* background-size: 300px 100px; */
-    background-size: auto;
+  background: blue url("/image/devlopment.jpg") no-repeat fixed center/400px 200px
 }
 
 #blog p{
