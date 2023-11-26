@@ -1,7 +1,25 @@
-#about p{
-  background: blue url("/image/devlopment.jpg") no-repeat fixed center/400px 200px
+.first {
+  border-style: dotted;
+  border-width: 5px;
 }
 
-#blog p{
-    background-image: url("https://d334lak5lb2pjo.cloudfront.net/wp-content/uploads/b2b-web-design-examples-min-1220x718-1.jpg");
+.second {
+  border-style: outset;
+  border-width: 5px;
+}
+.third {
+  border-style: inset;
+  border-width: 5px;
+}
+p{
+  border-style: solid;
+}
+
+.fourth{
+  border-style: none;
+}
+
+button{
+  border-style: hidden;
+  background-color: aquamarine;
 }
