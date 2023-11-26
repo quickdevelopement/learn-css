@@ -1,25 +1,18 @@
-.first {
-  border-style: dotted;
-  border-width: 5px;
+.first{
+  border-top-style: dashed;
+  border-color: rgb(255,0,0);
 }
 
-.second {
-  border-style: outset;
+.second{
+  border-top-style: solid;
+  border-right-style: dotted;
+  border-bottom-style: groove;
+  border-left-style: double;
   border-width: 5px;
+  border-color: aqua #ff0000;
 }
-.third {
-  border-style: inset;
-  border-width: 5px;
-}
-p{
-  border-style: solid;
-}
-
-.fourth{
-  border-style: none;
-}
-
-button{
-  border-style: hidden;
-  background-color: aquamarine;
+.third{
+  border-style: dashed dotted solid ridge;
+  border-width: 5px 2px;
+  border-color: red green yellow orange
 }
