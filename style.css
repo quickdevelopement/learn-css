@@ -1,18 +1,13 @@
-.first{
-  border-top-style: dashed;
-  border-color: rgb(255,0,0);
+button{
+  border: 2px ridge orangered;
+  border-radius: 5px;
 }
 
-.second{
-  border-top-style: solid;
-  border-right-style: dotted;
-  border-bottom-style: groove;
-  border-left-style: double;
-  border-width: 5px;
-  border-color: aqua #ff0000;
+p{
+  border: 5px dashed #00ff00
 }
-.third{
-  border-style: dashed dotted solid ridge;
-  border-width: 5px 2px;
-  border-color: red green yellow orange
+
+p.first{
+  border: 3px solid rgb(0 255 255);
+  border-radius: 50px;
 }
