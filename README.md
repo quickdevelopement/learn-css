@@ -1,6 +1,7 @@
 # Learn CSS
 
-### CSS Border
-- [ ] Border-Width
-- [x] Boder-Style
-- [ ] Border-Color
+### CSS Margin
+ - [x] Margin Top
+ - [ ] Margin Right
+ - [ ] Margin Bottom
+ - [ ] Margin Left
