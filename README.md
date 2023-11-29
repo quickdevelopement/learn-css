@@ -1,7 +1,7 @@
 # Learn CSS
 
-### CSS Margin
- - [x] Margin Top
- - [ ] Margin Right
- - [ ] Margin Bottom
- - [ ] Margin Left
+### CSS Padding
+ - [x] Padding Top
+ - [ ] Padding Right
+ - [ ] Padding Bottom
+ - [ ] Padding Left
