@@ -1,7 +1,8 @@
 # Learn CSS
 
-### CSS Padding
- - [x] Padding Top
- - [ ] Padding Right
- - [ ] Padding Bottom
- - [ ] Padding Left
+### CSS Width and Heigh
+- Length Value
+- Keyword Value
+- Percentage Value
+- View Width Or Height
+- Global Value

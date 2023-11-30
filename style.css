@@ -1,20 +1,9 @@
-.margin-box{
-  width: 100px;
-  height: 80px;
-  border:2px solid royalblue;
+.size-box{
+  /* max-width: 500px; */
+  /* width: 80%; */
+  width: fit-content;
+  /* height: min-content; */
+  max-height: 200px;
 
-
-
-  margin: 100px 200px;
-}
-
-.second{
-  border: 2px solid red;
-  margin: 50px;
-  /* padding-top:20px;
-  padding-left: 50px;
-  padding-bottom: 30px;
-  padding-right: 50px; */
-  /* padding:20px 50px 30px 50px; */
-  padding: 50px 20px;
+  background-color:aquamarine;
 }
