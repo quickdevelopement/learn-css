@@ -1,9 +1,9 @@
-.size-box{
-  /* max-width: 500px; */
-  /* width: 80%; */
-  width: fit-content;
-  /* height: min-content; */
-  max-height: 200px;
-
-  background-color:aquamarine;
+*{
+  margin: 0;padding: 0;
+}
+h3{
+  border:10px solid green;
+  margin: 50px;
+  padding: 50px;
+  font-size: 30px;
 }
