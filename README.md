@@ -1,8 +1,8 @@
 # Learn CSS
 
-### CSS BOX Model
-- Position
-- Margin
-- Boder
-- Padding
-- Content
+### CSS Outline
+- Style
+- Width
+- Color
+- Offset
+- Shorthand
