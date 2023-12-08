@@ -1,24 +1,20 @@
 *{
   margin: 0;padding: 0;
 }
+
 h2{
-  color: #ff0000;
+  text-decoration-line: line-through;
+  text-decoration-color: red;
 }
-
-p.small{
-  /* text-align: right; */
-  direction: rtl;
-  unicode-bidi: bidi-override;
+h3{
+  text-decoration-line: underline;
+  text-decoration-color: orange;
+  text-decoration-style: wavy;
+  text-decoration-thickness: 5px;
 }
-.para{
-  text-align-last:center;
-}
-.arabic{
-
-  /* text-align: right; */
-  direction: rtl;
-
-}
-span{
-  vertical-align: super;
+p{
+  /* text-decoration-thickness: 3px;
+  text-decoration-style: dotted;
+  text-decoration-line: underline; */
+  text-decoration: underline red solid 2px;
 }

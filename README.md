@@ -3,4 +3,5 @@
 ### CSS Text
 
 - Text Color
-- Text Alignment
+- Text Alignment 
+- Text Decoration
