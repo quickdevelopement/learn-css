@@ -1,49 +1,24 @@
 *{
   margin: 0;padding: 0;
 }
-h3{
- 
-  font-size: 30px;
+h2{
+  color: #ff0000;
 }
 
-.form-area {
-  display: flex;
-  justify-content: center;
-  margin-top: 50px;
+p.small{
+  /* text-align: right; */
+  direction: rtl;
+  unicode-bidi: bidi-override;
 }
-
-form {
-  color: blueviolet;
-  padding: 10px;
-  border-radius: 10px;
-  box-shadow: 1px 1px 3px red;
+.para{
+  text-align-last:center;
 }
+.arabic{
 
+  /* text-align: right; */
+  direction: rtl;
 
-form div {
-  margin: 10px 0;
 }
-
-input[type="submit"] {
-  margin: 0 auto;
-  display: block;
-  border: 1px solid blueviolet;
-  padding: 5px 10px;
-  border-radius: 5px;
-  color: red;
-  font-size: 20px;
-}
-
-input{
-  border: none;
-  display: block;
-  width: 100%;
-  padding: 2px;
-  /* border:none; */
-  border: 1px solid green;
-  outline: none
-  /* outline-style: dotted ; */
-  /* outline: 1px solid red; */
-  /* outline-offset: 5px; */
-
+span{
+  vertical-align: super;
 }
