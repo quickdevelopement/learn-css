@@ -1,20 +1,11 @@
-*{
-  margin: 0;padding: 0;
-}
 
 h2{
-  text-decoration-line: line-through;
-  text-decoration-color: red;
+  text-transform: lowercase;
 }
-h3{
-  text-decoration-line: underline;
-  text-decoration-color: orange;
-  text-decoration-style: wavy;
-  text-decoration-thickness: 5px;
+.para2{
+  text-transform: uppercase;
 }
-p{
-  /* text-decoration-thickness: 3px;
-  text-decoration-style: dotted;
-  text-decoration-line: underline; */
-  text-decoration: underline red solid 2px;
+
+span{
+  text-transform: none;
 }
