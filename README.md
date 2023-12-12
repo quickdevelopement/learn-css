@@ -5,4 +5,5 @@
 - Text Color
 - Text Alignment 
 - Text Decoration
-- Text Transformation
+- Text Transformation 
+- Text Spacing

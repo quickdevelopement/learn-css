@@ -1,11 +1,18 @@
-
-h2{
-  text-transform: lowercase;
-}
 .para2{
-  text-transform: uppercase;
+  text-indent:200px; 
+  /* line-height: 30px; 
+  word-spacing: 30px; */
+  white-space: wrap;
 }
-
-span{
-  text-transform: none;
+.para{
+    letter-spacing: 5px;
+    
+}
+.box{
+    border:2px solid red;
+    display: inline-block;
+    height: 100px;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 95px;
 }
