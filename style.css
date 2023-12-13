@@ -1,18 +1,8 @@
-.para2{
-  text-indent:200px; 
-  /* line-height: 30px; 
-  word-spacing: 30px; */
-  white-space: wrap;
+h2{
+  text-shadow: 2px 2px 3px red;
 }
-.para{
-    letter-spacing: 5px;
-    
-}
-.box{
-    border:2px solid red;
-    display: inline-block;
-    height: 100px;
-    padding: 10px;
-    font-size: 20px;
-    line-height: 95px;
+
+.box h3{
+  color: green;
+  text-shadow: 2px 2px 3px black, 0px 0px 3px, 0px 0px 3px;
 }
