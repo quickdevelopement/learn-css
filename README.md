@@ -7,3 +7,4 @@
 - Text Decoration
 - Text Transformation 
 - Text Spacing
+- Text Shadow
