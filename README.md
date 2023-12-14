@@ -1,10 +1,5 @@
 # Learn CSS
 
-### CSS Text
+### CSS Font
 
-- Text Color
-- Text Alignment 
-- Text Decoration
-- Text Transformation 
-- Text Spacing
-- Text Shadow
+- Font Family

@@ -1,8 +1,6 @@
 h2{
-  text-shadow: 2px 2px 3px red;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
-.box h3{
-  color: green;
-  text-shadow: 2px 2px 3px black, 0px 0px 3px, 0px 0px 3px;
+p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif 'Times New Roman', Times, serif;
 }
