@@ -1,6 +1,24 @@
 h2{
   font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
 }
 p{
   font-family: Verdana, Geneva, Tahoma, sans-serif 'Times New Roman', Times, serif;
+}
+
+p span{
+  font-style: oblique;
+}
+p.p1{
+  font-weight: 700;
+  font-variant: small-caps;
+}
+p.p2{
+  font-weight: bolder;
+}
+p.p3{
+  font-weight: 900;
+}
+p.p4{
+  font-variant: small-caps;
 }
