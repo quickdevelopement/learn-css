@@ -5,19 +5,26 @@ h2{
 p{
   font-family: Verdana, Geneva, Tahoma, sans-serif 'Times New Roman', Times, serif;
 }
+p.font{
+  font-size: 16px;
+}
 
 p span{
   font-style: oblique;
+  font-size: 1.75em;
 }
 p.p1{
-  font-weight: 700;
+  /* font-weight: 700; */
   font-variant: small-caps;
+  font-size: 20px;
 }
 p.p2{
   font-weight: bolder;
+  font-size: 5vw;
 }
 p.p3{
-  font-weight: 900;
+  /* font-weight: 900; */
+  font-size: 125%;
 }
 p.p4{
   font-variant: small-caps;
