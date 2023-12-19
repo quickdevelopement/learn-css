@@ -3,3 +3,6 @@
 ### CSS Font
 
 - Font Family
+- Font Size
+- Font Style
+- Google Font
