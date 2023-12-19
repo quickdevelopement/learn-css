@@ -1,31 +1,16 @@
-h2{
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: italic;
-}
-p{
-  font-family: Verdana, Geneva, Tahoma, sans-serif 'Times New Roman', Times, serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Condensed:wght@400;500;600;700;800;900&family=Rubik+Doodle+Shadow&display=swap');
+/**
+  Lobster
+  Roboto Condensed 
+  Rubik Doodle Shadow
+*/
 p.font{
-  font-size: 16px;
-}
-
-p span{
-  font-style: oblique;
-  font-size: 1.75em;
+  font-family: 'Lobster';
 }
 p.p1{
-  /* font-weight: 700; */
-  font-variant: small-caps;
-  font-size: 20px;
+  font-family: 'Roboto Condensed';
+  font-weight: 800;
 }
 p.p2{
-  font-weight: bolder;
-  font-size: 5vw;
-}
-p.p3{
-  /* font-weight: 900; */
-  font-size: 125%;
-}
-p.p4{
-  font-variant: small-caps;
+  font-family: 'Rubik Doodle Shadow';
 }
