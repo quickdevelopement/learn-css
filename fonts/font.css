@@ -1,0 +1,12 @@
+@font-face{
+  font-family: "Lobster";
+  src:local("Lobster"),
+    url("Lobster-Regular.ttf")
+}
+
+@font-face {
+  font-family: "Trickster";
+  src: local("Trickster")
+   url("Trickster-Reg.otf"),
+   url("Trickster-Reg.ttf"),
+}

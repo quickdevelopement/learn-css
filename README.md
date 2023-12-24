@@ -6,3 +6,4 @@
 - Font Size
 - Font Style
 - Google Font
+- Font Face

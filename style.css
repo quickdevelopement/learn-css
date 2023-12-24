@@ -1,16 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Condensed:wght@400;500;600;700;800;900&family=Rubik+Doodle+Shadow&display=swap');
 /**
-  Lobster
-  Roboto Condensed 
-  Rubik Doodle Shadow
+  Roboto
 */
-p.font{
-  font-family: 'Lobster';
+.p2{
+  font-family: "Lobster";
 }
-p.p1{
-  font-family: 'Roboto Condensed';
-  font-weight: 800;
-}
-p.p2{
-  font-family: 'Rubik Doodle Shadow';
+article .font{
+  font-family: "Trickster";
 }
