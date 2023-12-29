@@ -1,9 +1,3 @@
-/**
-  Roboto
-*/
-.p2{
-  font-family: "Lobster";
-}
-article .font{
-  font-family: "Trickster";
+.font{
+  font: italic small-caps bold 20px/30px Georgia, sarif;
 }
