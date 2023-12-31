@@ -1,5 +1,6 @@
-ul{
-  /* list-style: outside url("./image/images.jpeg") ; */
- /* list-style: "👍"; */
- list-style: none;
+ol{
+  /* list-style: decimal-leading-zero; */
+  /* list-style: lower-roman; */
+  /* list-style: lower-greek; */
+  list-style: none;
 }
