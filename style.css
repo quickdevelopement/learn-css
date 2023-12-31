@@ -5,7 +5,21 @@ table, th, td{
 table{
   width: 100%;
 }
-th:nth-child(2){
+/* th:nth-child(2){
   width: 300px;
   height: 100px;
+} */
+
+th, td{
+  height: 50px;
+  text-align: center;
+}
+
+tbody tr:nth-child(2){
+  vertical-align: top;
+}
+
+tr:hover{
+  background-color: coral;
+  color: rgb(12, 1, 128);
 }
