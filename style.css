@@ -1,3 +1,5 @@
-.font{
-  font: italic small-caps bold 20px/30px Georgia, sarif;
+ul{
+  /* list-style: outside url("./image/images.jpeg") ; */
+ /* list-style: "👍"; */
+ list-style: none;
 }
