@@ -1,6 +1,11 @@
-ol{
-  /* list-style: decimal-leading-zero; */
-  /* list-style: lower-roman; */
-  /* list-style: lower-greek; */
-  list-style: none;
+table, th, td{
+  border-collapse: collapse;
+  border:2px solid green;
+}
+table{
+  width: 100%;
+}
+th:nth-child(2){
+  width: 300px;
+  height: 100px;
 }
