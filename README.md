@@ -1,9 +1,10 @@
 # Learn CSS
 
-### CSS Lists
+### CSS Display
 
-- Border
-- Size
-- Alignment
-- Style
-- Responsive
+- Inline
+- Block
+- Inline - Block
+- Flex
+- Grid
+- none
