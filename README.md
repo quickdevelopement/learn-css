@@ -2,9 +2,8 @@
 
 ### CSS Display
 
-- Inline
-- Block
-- Inline - Block
-- Flex
-- Grid
-- none
+- Static
+- relative
+- absolute
+- sticky
+- fixed
