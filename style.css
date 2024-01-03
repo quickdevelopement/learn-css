@@ -1,5 +1,7 @@
 
-
+.wrapper{
+  position: relative;
+}
 .wrapper .box{
   width: 50px;
   height: 50px;
@@ -10,15 +12,23 @@
 
 .red{
   background-color: red;
+  position: relative;
+  z-index:1 ;
+
 }
 
 .green {
   background: green;
-  position: fixed;
-  right: 20px;
-  
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  z-index: 4;
 }
 
 .blue{
   background-color: blue;
+  position: absolute;
+  left: 40px;
+  top: 40px; 
+  z-index: 3;
 }
