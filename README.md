@@ -1,9 +1,7 @@
 # Learn CSS
 
-### CSS Display
-
-- Static
-- relative
-- absolute
-- sticky
-- fixed
+### CSS Overflow
+- Visible
+- Hidden
+- scroll
+- auto
