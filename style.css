@@ -1,22 +1,44 @@
-
-
-.box{
-  width: 70px;
-  height: 70px;
-  background-color: blueviolet;
-  float: left;
-
-  /* clear: left; */
-  /* float: right; */
-  /* float: none; */
-  /* float: inline-start; */
-  /* float: inline-end; */
+*{
+  margin: 0;padding: 0;
 }
 
-.box2{
-  width: 100px;
-  height: 100px;
-  background-color: blueviolet;
-  float: right;
-  clear: none;
+header{
+  min-height: 80px;
+  background: green;
+  line-height: 80px;
+}
+
+.logo{
+  float: left;
+}
+.logo h2{
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Lobster", sans-serif;
+  font-size: 30px;
+  text-shadow: 1px 1px 2px #000;
+}
+
+nav.menu{
+  float:right
+}
+nav.menu ul{
+  list-style: none;
+}
+nav.menu ul li{
+  float: left;
+}
+
+nav.menu ul li a{
+  text-decoration: none;
+  color: gold;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: "Trickster", Arial, Helvetica, sans-serif;
+  transition: .6s;
+}
+nav.menu ul li a:hover{
+  background-color: aqua;
+  color: red;
+  border-radius: 5px;
 }
