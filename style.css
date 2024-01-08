@@ -9,7 +9,7 @@ header{
 }
 
 .logo{
-  float: left;
+  /* float: left; */
 }
 .logo h2{
   text-transform: uppercase;
@@ -17,25 +17,31 @@ header{
   font-family: "Lobster", sans-serif;
   font-size: 30px;
   text-shadow: 1px 1px 2px #000;
+  text-align: center;
 }
 
 nav.menu{
-  float:right
+  /* float:right */
 }
 nav.menu ul{
   list-style: none;
 }
 nav.menu ul li{
-  float: left;
+  /* float: left; */
 }
 
 nav.menu ul li a{
   text-decoration: none;
+  text-align: center;
+  display: block;
   color: gold;
-  padding: 10px 20px;
+  padding: 5px 0px;
   font-size: 20px;
   font-family: "Trickster", Arial, Helvetica, sans-serif;
   transition: .6s;
+  border-top: 1px solid #025902;
+  border-bottom: 1px solid #02b702;
+
 }
 nav.menu ul li a:hover{
   background-color: aqua;
