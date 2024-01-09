@@ -9,7 +9,7 @@ header{
 }
 
 .logo{
-  /* float: left; */
+  float: left;
 }
 .logo h2{
   text-transform: uppercase;
@@ -21,30 +21,75 @@ header{
 }
 
 nav.menu{
-  /* float:right */
+  float:right
 }
 nav.menu ul{
   list-style: none;
 }
 nav.menu ul li{
-  /* float: left; */
+  float: left;
 }
 
 nav.menu ul li a{
   text-decoration: none;
   text-align: center;
-  display: block;
+  /* display: block; */
   color: gold;
-  padding: 5px 0px;
+  padding: 5px 20px;
   font-size: 20px;
   font-family: "Trickster", Arial, Helvetica, sans-serif;
   transition: .6s;
-  border-top: 1px solid #025902;
-  border-bottom: 1px solid #02b702;
+  /* border-top: 1px solid #025902; */
+  /* border-bottom: 1px solid #02b702; */
 
 }
 nav.menu ul li a:hover{
   background-color: aqua;
   color: red;
   border-radius: 5px;
+}
+#bar{
+  display: none;
+  float: right;
+}
+
+
+@media only screen and (max-width: 991px) {
+  #bar{
+    display: block;
+
+  }
+  #bar button{
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px ridge #fff;
+    background-color: transparent;
+    margin: 0;
+  }
+  .head{
+    margin: 0 20px;
+    min-height: 80px;
+  }
+  nav.menu{
+    float: none;
+    display: none;
+  }
+ 
+  nav.menu ul li{
+    float: none;
+    
+  }
+  nav.menu ul li a{
+    display: block;
+    padding: 0px 0px;
+    border-top: 1px solid #025902; 
+   border-bottom: 1px solid #02b702;
+   font-size: 14px;
+   line-height: 40px;
+   
+  }
+  nav.menu.toggleMenu{
+    display: block;
+  }
 }
