@@ -1,5 +1,5 @@
 # Learn CSS
 
-### CSS Navigation
-- [x] Horizontal
-- [x] Vertical
+### CSS Dropdown
+- [x] Text Dropdown
+- [x] Image Dropdown

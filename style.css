@@ -1,6 +1,9 @@
 *{
   margin: 0;padding: 0;
 }
+img{
+  width: 100%;
+}
 
 header{
   min-height: 80px;
@@ -92,4 +95,43 @@ nav.menu ul li a:hover{
   nav.menu.toggleMenu{
     display: block;
   }
+}
+
+.dropdown-text{
+  position: relative;
+}
+.open-text{
+  position: absolute;
+  z-index: 1;
+  background-color: #02b702;
+  padding: 5px;
+  box-shadow: 5px 5px 20px #000;
+  display: none;
+}
+
+.dropdown-text:hover .open-text{
+  display: block;
+}
+
+.dropdown-image>img{
+  width: 100px;
+  height: 80px;
+}
+
+.dropdown-image{
+  position: relative;
+}
+
+.dropdown-details{
+  width: 80%;
+  position: absolute;
+  background-color: chocolate;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  color: #fff;
+  display: none;
+}
+.dropdown-image:hover .dropdown-details{
+display: block;
 }
