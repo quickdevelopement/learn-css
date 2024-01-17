@@ -23,17 +23,18 @@ header{
   text-align: center;
 }
 
-nav.menu{
+.menu{
   float:right
 }
-nav.menu ul{
+.menu ul{
   list-style: none;
 }
-nav.menu ul li{
+.menu ul li{
   float: left;
+  position: relative;
 }
 
-nav.menu ul li a{
+.menu ul li a{
   text-decoration: none;
   text-align: center;
   /* display: block; */
@@ -42,11 +43,19 @@ nav.menu ul li a{
   font-size: 20px;
   font-family: "Trickster", Arial, Helvetica, sans-serif;
   transition: .6s;
-  /* border-top: 1px solid #025902; */
-  /* border-bottom: 1px solid #02b702; */
+  border-left: 1px solid #025902; 
+  border-right: 1px solid #02b702;
 
 }
-nav.menu ul li a:hover{
+.menu ul li:first-child a{
+  border-left: none;
+}
+.menu ul li:last-child a{
+  border-right: none;
+}
+
+
+.menu ul li a:hover{
   background-color: aqua;
   color: red;
   border-radius: 5px;
@@ -54,6 +63,29 @@ nav.menu ul li a:hover{
 #bar{
   display: none;
   float: right;
+}
+.menu ul li ul{
+  background-color: green;
+  margin-top:-5px ;
+  width: 250px;
+  position: absolute;
+  z-index: 100;
+  left: -9999px;
+  /* transition: .2s all ease; */
+}
+.menu ul li ul li{
+  float: none;
+  display: block;
+  line-height: 40px;
+  border-top: 1px solid #025902; 
+  border-bottom: 1px solid #02b702;
+}
+
+.menu ul li ul li a{
+  display: block;
+}
+.menu ul li:hover ul{
+  left:0
 }
 
 
