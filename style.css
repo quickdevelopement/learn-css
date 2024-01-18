@@ -36,7 +36,7 @@ header{
 
 .menu ul li a{
   text-decoration: none;
-  text-align: center;
+  /* text-align: center; */
   /* display: block; */
   color: gold;
   padding: 5px 20px;
@@ -45,6 +45,7 @@ header{
   transition: .6s;
   border-left: 1px solid #025902; 
   border-right: 1px solid #02b702;
+  margin-left: 5px;
 
 }
 .menu ul li:first-child a{
@@ -122,7 +123,20 @@ header{
    border-bottom: 1px solid #02b702;
    font-size: 14px;
    line-height: 40px;
+   border-left: 0;
+   border-right: 0;
    
+  }
+
+  .menu ul li ul{
+    width: 80%;
+    margin-left: 20%;
+    box-shadow: 3px 1px 5px #000;
+    margin-top: 1px
+  }
+  .menu ul li ul li a{
+    text-align: start;
+    margin: 0;
   }
   nav.menu.toggleMenu{
     display: block;
