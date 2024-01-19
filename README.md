@@ -1,5 +1,4 @@
 # Learn CSS
 
-### CSS Dropdown
-- [x] Text Dropdown
-- [x] Image Dropdown
+### CSS Form Style
+- [x] Login Form Style
