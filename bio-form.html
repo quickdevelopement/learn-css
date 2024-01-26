@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <linK rel="stylesheet" href="fonts/font.css">
+  <title>Bio-Data</title>
+  
+  </head>
+  <body>
+   
+    <header>
+      <div class="head">
+        <div class="logo"><h2>logo</h2></div>
+        <div id="bar"><button>&#9776</button></div>
+      </div>
+      
+      <nav class="menu" id="menu">
+        <!-- Main Menu -->
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Service</a>
+            <!-- Dropdown Menu -->
+            <ul>
+              <li><a href="#">Web Designer</a></li>
+              <li><a href="#">Web Development</a></li>
+              <li><a href="#">Website Testing</a></li>
+              <li><a href="bio-form">Bio-Data</a></li>
+            </ul>
+          </li>  
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="form.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--=========================
+       Bio Data Start 
+    =========================-->
+    <div id="formArea">
+      <div class="bio-form">
+        <form class="form">
+          <!-- Bio Title Start -->
+            <div class="bio-title">
+              <h2>Bio Data</h2>
+            </div>
+          <!-- Bio Title End -->
+          <!-- Photo Upload Start -->
+            <div class="upload-photo">
+              <div class="formInput">
+                <img src="image/user.png" alt=""/>
+                <input type="file" />
+             </div>
+            </div>
+          <!-- Photo Upload End -->
+          <!-- Bio Data Details start -->
+            <div class="bio-details">
+              <!-- Personal Info Start -->
+                <div class="personal-info">
+                  <!-- Our Name Start -->
+                  <div class="name w-50">
+                    <div class="formInput">
+                      <label for="firstName">First Name</label>
+                      <input type="text" id="firstName" placeholder="Enter Your First Name">
+                    </div>
+                    <div class="formInput">
+                      <label for="lastName">Last Name</label>
+                      <input type="text" id="lastName" placeholder="Enter Your Last Name">
+                    </div>
+                  </div>
+                  <!-- Our Name End -->
+                  <!-- Parent Name Start -->
+                  <div class="parent w-50">
+                    <div class="formInput">
+                      <label for="father">Father's Name</label>
+                      <input type="text" id="father" placeholder="Enter Your Father's Name">
+                    </div>
+                    <div class="formInput">
+                      <label for="mother">Mother's Name</label>
+                      <input id="mother" type="text" placeholder="Enter Your Mother's Name">
+                    </div>
+                  </div>
+                  <!-- Parent Name End -->
+                  <!-- Email Address Start -->
+                  <div class="email-address">
+                    <div class="formInput">
+                      <label for="email">Your Email Address</label>
+                      <input type="text" id="email" placeholder="example@info.com">
+                    </div>
+                  </div>
+                  <!-- Email Address End -->
+                  <!-- Phone, dob, nid Start -->
+                  <div class="personal-others w-30">
+                    <div class="formInput">
+                      <label for="Phone">Your Phone Number</label>
+                      <input type="number" id="phone" placeholder="01XXXXXXXXX">
+                    </div>
+                    <div class="formInput">
+                      <label for="dob">Data Of Birth</label>
+                      <input type="date" id="dob">
+                    </div>
+                    <div class="formInput">
+                      <label for="nid">National ID</label>
+                      <input type="Number" id="nid" placeholder="10299394-0--4-">
+                    </div>
+                  </div>
+                  <!-- Phone, dob, nid End -->
+                  <!-- Gender Start -->
+                  <div class="gender-input">
+                    <div class="formInput">
+                      <label for="gender">Gender</label>
+                        <input name="gender" type="radio"> Male
+                        <input name="gender" type="radio"> Female
+                        <input name="gender" type="radio"> Other
+                      </div>
+                  </div>
+                  <!-- Gender End -->
+                  <!-- Address Start -->
+                  <div class="addressSection w-50">
+                    <h4 class="address-title">Your Address</h4>
+                    <div class="formInput">
+                      <input type="text" list="dist" placeholder="District">
+                      <datalist name="address" id="dist">
+                        <option value="Dhaka">
+                        <option value="Borisal">
+                        <option value="Sylhel">
+                        <option value="Munshigonj">
+                        <option value="Khulna">
+                        <option value="Bogura">
+                        <option value="Chittagong">
+                      </datalist>
+                    </div>
+                    <div class="formInput">
+                      <input type="text" list="upazila" placeholder="Upazila">
+                      <datalist name="address" id="upazila">
+                        <option value="Gouronadi">
+                        <option value="Agolzara">
+                        <option value="Wazirpur">
+                        <option value="Babugonj">
+                        <option value="Hizla">
+                        <option value="Muladi">
+                        <option value="Bakhegonj">
+                      </datalist>
+                    </div>
+                  </div>
+                  <!-- Address End -->
+                  
+                </div>
+              <!-- Personal Info End -->
+              <!-- Educational Qualification Start -->
+              <div class="educational-info w-50">
+                <div class="ssc-section">
+                  <div class="formInput">
+                    <label for="ssc">Secondary School Certificate (SSC) Result</label>
+                    <select name="ssc" id="ssc">
+                      <option value="A+">A+</option>
+                      <option value="A">A</option>
+                      <option value="A-">A-</option>
+                      <option value="B">B</option>
+                      <option value="C">C</option>
+                      <option value="D">D</option>
+                    </select>
+                  </div>
+                  <div class="formInput">
+                    <label for="ssc-board">Board</label>
+                    <select name="ssc-board" id="ssc-board">
+                      <option value="Dhaka">Dhaka</option>
+                      <option value="Chittagong">Chittagong</option>
+                      <option value="Kumilla">Kumilla</option>
+                      <option value="Rajshahi">Rajshahi</option>
+                      <option value="Jossore">Jossore</option>
+                      <option value="Borisal">Borisal</option>
+                      <option value="Sylhel">Sylhel</option>
+                      <option value="Dinajpur">Dinajpur</option>
+                      <option value="Madrasha">Madrasha</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="hsc-section">
+                  <div class="formInput">
+                    <label for="hsc">Higher Secondary Certificate (HSC) Result</label>
+                    <select name="hsc" id="hsc">
+                      <option value="A+">A+</option>
+                      <option value="A">A</option>
+                      <option value="A-">A-</option>
+                      <option value="B">B</option>
+                      <option value="C">C</option>
+                      <option value="D">D</option>
+                    </select>
+                  </div>
+                  <div class="formInput">
+                    <label for="hsc-board">Board</label>
+                    <select name="hsc-board" id="hsc-board">
+                      <option value="Dhaka">Dhaka</option>
+                      <option value="Chittagong">Chittagong</option>
+                      <option value="Kumilla">Kumilla</option>
+                      <option value="Rajshahi">Rajshahi</option>
+                      <option value="Jossore">Jossore</option>
+                      <option value="Borisal">Borisal</option>
+                      <option value="Sylhel">Sylhel</option>
+                      <option value="Dinajpur">Dinajpur</option>
+                      <option value="Madrasha">Madrasha</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <!-- Educational Qualification End --> 
+              <!-- Agree with Start -->
+              <div class="formInput agree">
+                <input type="checkbox" name="" id="agr">
+                <label for="agr">Are Your Information is correct?</label>
+              </div>
+              <!-- Agree with End -->
+              <!-- Submit Start -->
+              <input type="submit" value="Submit">
+              <!-- Submit End -->
+            </div>
+          <!-- Bio Data Details End -->
+        </form>
+      </div>
+    </div>
+    <!--=========================
+       Bio Data End
+    =========================-->
+
+
+ <script src="./script.js"></script>
+  </body>
+</html>
