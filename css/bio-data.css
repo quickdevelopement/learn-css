@@ -1,0 +1,75 @@
+/*============== 
+Bio Data Form Start
+ ==============*/
+ .bio-form{
+    background-color: oldlace;
+    margin: 20px auto;
+    width: 80%;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+ }
+
+ /* form title */
+ .bio-title{
+    margin: 10px 0px;
+    display: block;
+    box-shadow: 1px 1px 2px #ddd;
+    background-color: orange;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+ }
+ .bio-title h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 2px #000;
+    color: green;
+    font-size: 40px;
+ }
+
+ /* Photo Handling Start */
+ .upload-photo{
+    position: relative;
+    height: 150px;
+    display: block;
+    width: 100%;
+ }
+ .upload-photo .formInput{
+    position: absolute;
+    width: 100px;
+    right: 0;
+    border: 1px solid green;
+    padding: 2px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px #ddd;
+    display: inline-block;
+ }
+ .upload-photo .formInput img{
+    border: 1px solid orange;
+    border-radius: 5px;
+ }
+ .upload-photo .formInput input[type="file"]{
+    display: inline-block;
+    width: 100%;
+ }
+
+ .upload-photo .formInput input[type="file"]::file-selector-button{
+    border: 1px solid orange;
+    padding: 2px;
+    border-radius: 5px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: .6s all ease;
+ }
+ .upload-photo .formInput input[type="file"]::file-selector-button:hover{
+    background-color: green;
+    color: orange;
+}
+ /*============== 
+Bio Data Form End
+ ==============*/
