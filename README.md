@@ -1,4 +1,8 @@
 # Learn CSS
 
 ### CSS Form Style
-- [x] Login Form Style
+- [x] Bio Data From Design
+### Bio Data From
+- [x] Form Title
+- [x] User Image/Photo
+- [x] Personal Information

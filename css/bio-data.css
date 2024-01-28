@@ -1,3 +1,24 @@
+input, select, datalist{
+   outline: none;
+   border-radius: 5px;
+   border: 1px solid green
+}
+.w-50 div{
+   width: 48.24%;
+   display: inline-block;
+   margin-right: 3%;
+}
+.w-50 div:last-child{
+   margin-right: 0;
+}
+.w-30 div{
+   width: 31.5%;
+   margin-right: 2%;
+   display: inline-block;
+}
+.w-30 div:last-child{
+   margin-right: 0;
+}
 /*============== 
 Bio Data Form Start
  ==============*/
@@ -54,6 +75,10 @@ Bio Data Form Start
  .upload-photo .formInput input[type="file"]{
     display: inline-block;
     width: 100%;
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
  }
 
  .upload-photo .formInput input[type="file"]::file-selector-button{
@@ -70,6 +95,47 @@ Bio Data Form Start
     background-color: green;
     color: orange;
 }
+
+/*------Personal Information Start -------*/
+.formInput {
+   margin: 10px 0;
+   box-sizing: border-box;
+}
+
+.formInput label{
+   display: block;
+   width: 100%;
+   font-size: 20px;
+   color: brown;
+   font-weight: 600;
+   margin: 5px 0;
+}
+.formInput input {
+   border: 1px solid green;
+   padding: 5px;
+   box-sizing: border-box;
+   color: blue;
+   width: 100%;
+}
+
+.gender-input .formInput{
+   display: block;
+   width: 100%;
+}
+.gender-input .formInput input{
+   width: auto;
+}
+.addressSection .address-title{
+   display: block;
+   width: 100%;
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: brown;
+   font-weight: 600;
+   margin: 5px 0;
+}
+/*------Personal Information End -------*/
  /*============== 
 Bio Data Form End
  ==============*/
+
