@@ -110,7 +110,7 @@ Bio Data Form Start
    font-weight: 600;
    margin: 5px 0;
 }
-.formInput input {
+.formInput input, .formInput select {
    border: 1px solid green;
    padding: 5px;
    box-sizing: border-box;
@@ -118,7 +118,7 @@ Bio Data Form Start
    width: 100%;
 }
 
-.gender-input .formInput{
+.gender-input .formInput, .educational-info .formInput{
    display: block;
    width: 100%;
 }
@@ -135,6 +135,41 @@ Bio Data Form Start
    margin: 5px 0;
 }
 /*------Personal Information End -------*/
+
+/*---------Agree Section Start-----------*/
+.agree{
+   display: table;
+   margin: 0 auto;
+}
+.agree input{
+   display: inline;
+   width: 20px;
+}
+
+.agree label{
+   display: inline;
+}
+/*---------Agree Section End-----------*/
+/*---------Submit Button Start----------*/
+.form input[type="submit"]{
+   padding: 8px 20px;
+   font-size: 16px;
+   background: green;
+   color: #fff;
+   text-transform: uppercase;
+   border-radius: 5px;
+   border: 1px solid brown;
+   display: table;
+   margin: 20px auto;
+   font-weight: 600;
+   transition: .6s all ease;
+}
+.form input[type="submit"]:hover{
+   background-color: #fff;
+   color: green;
+   border-color: green;
+}
+/*---------Submit Button End-----------*/
  /*============== 
 Bio Data Form End
  ==============*/

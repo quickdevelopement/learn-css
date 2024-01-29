@@ -6,3 +6,6 @@
 - [x] Form Title
 - [x] User Image/Photo
 - [x] Personal Information
+- [ ] Educational Qualification
+- [ ] Agree With Us 
+- [ ] Submit
